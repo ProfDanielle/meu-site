@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9534f; /* Fundo vermelho */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white; /* Fundo branco para o container */
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Cor escura para o título */
+}
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Cor escura para o texto */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d9534f; /* Borda vermelha */
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Efeito de transição na borda */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #c9302c; /* Vermelho mais escuro ao focar */
+    outline: none; /* Remove contorno padrão */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c; /* Verde para o botão */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Verde mais escuro ao passar o mouse */
+}
